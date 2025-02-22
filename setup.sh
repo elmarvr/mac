@@ -10,7 +10,7 @@ packages=(
   nvm
   starship
   git
-  bun
+  oven-sh/bun/bun
 )
 
 brew install ${packages[@]}
