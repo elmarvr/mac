@@ -17,6 +17,6 @@ export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.bun/bin:$PATH"
 
 export NVM_DIR=~/.nvm
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+[ -s "$HOMEBREW_PREFIX/opt/nvm/nvm.sh" ] && \. "$HOMEBREW_PREFIX/opt/nvm/nvm.sh"
 
 eval "$(starship init zsh)"
