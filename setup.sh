@@ -78,6 +78,7 @@ defaults write com.apple.screencapture location -string "$HOME/Downloads"
 defaults write com.apple.screencapture type -string "png"
 
 defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 64 "{enabled = 0;}"
+defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 
 killall Dock
 killall Finder
