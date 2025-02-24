@@ -77,6 +77,8 @@ defaults write -g com.apple.mouse.scaling 2.5
 defaults write com.apple.screencapture location -string "$HOME/Downloads"
 defaults write com.apple.screencapture type -string "png"
 
+defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 64 "{enabled = 0;}"
+
 killall Dock
 killall Finder
 
