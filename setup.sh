@@ -6,6 +6,15 @@ fi
 
 brew update
 
+plugins=(
+  zsh-autosuggestions
+  zsh-completions
+)
+
+for plugin in "${plugins[@]}"; do
+  git clone "https://github.com/zsh-users/$plugin" ~/.oh-my-zsh/custom/plugins/$plugin
+done
+
 packages=(
   nvm
   starship
