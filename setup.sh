@@ -9,6 +9,7 @@ brew update
 plugins=(
   zsh-autosuggestions
   zsh-completions
+  zsh-syntax-highlighting
 )
 
 for plugin in "${plugins[@]}"; do
