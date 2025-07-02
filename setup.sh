@@ -19,6 +19,7 @@ for plugin in "${plugins[@]}"; do
 done
 
 curl -L -o ~/.zshrc https://raw.githubusercontent.com/elmarvr/mac/main/.zshrc
+curl -L -o ~/.zprofile https://raw.githubusercontent.com/elmarvr/mac/main/.zprofile
 
 packages=(
   nvm
