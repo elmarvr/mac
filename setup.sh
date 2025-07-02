@@ -6,6 +6,8 @@ fi
 
 brew update
 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 plugins=(
   zsh-autosuggestions
   zsh-completions
@@ -33,7 +35,7 @@ mkdir ~/.nvm
 nvm install default
 nvm use default
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 curl -L -o ~/.zshrc https://raw.githubusercontent.com/elmarvr/mac/main/.zshrc
 
 curl -L -o ~/.config/starship.toml https://raw.githubusercontent.com/elmarvr/mac/main/starship.toml
