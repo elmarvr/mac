@@ -18,6 +18,8 @@ for plugin in "${plugins[@]}"; do
   git clone "https://github.com/zsh-users/$plugin" ~/.oh-my-zsh/custom/plugins/$plugin
 done
 
+curl -L -o ~/.zshrc https://raw.githubusercontent.com/elmarvr/mac/main/.zshrc
+
 packages=(
   nvm
   starship
@@ -34,9 +36,6 @@ git config --global user.email "elmarvriet@gmail.com"
 mkdir ~/.nvm
 nvm install default
 nvm use default
-
-
-curl -L -o ~/.zshrc https://raw.githubusercontent.com/elmarvr/mac/main/.zshrc
 
 curl -L -o ~/.config/starship.toml https://raw.githubusercontent.com/elmarvr/mac/main/starship.toml
 
