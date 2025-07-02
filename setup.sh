@@ -35,8 +35,8 @@ git config --global user.name "Elmar van Riet"
 git config --global user.email "elmarvriet@gmail.com"
 
 mkdir ~/.nvm
-nvm install default
-nvm use default
+nvm install --lts
+nvm use --lts
 
 curl -L -o ~/.config/starship.toml https://raw.githubusercontent.com/elmarvr/mac/main/starship.toml
 
