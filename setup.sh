@@ -26,6 +26,10 @@ packages=(
   starship
   git
   oven-sh/bun/bun
+  tailscale
+  mysql@8.4
+  redis
+  go
 )
 
 brew install ${packages[@]}
@@ -42,15 +46,16 @@ curl -L -o ~/.config/starship.toml https://raw.githubusercontent.com/elmarvr/mac
 
 apps=(
   raycast
-  visual-studio-code
   ghostty
   betterdisplay
   spotify
   docker
   whatsapp
-  zen-browser
+  zen
   superhuman
   obsidian
+  cursor
+  betterdisplay
 )
 
 brew install --cask --appdir="/Applications" ${apps[@]}
