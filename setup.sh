@@ -30,6 +30,7 @@ packages=(
   mysql@8.4
   redis
   go
+  gh
 )
 
 brew install ${packages[@]}
