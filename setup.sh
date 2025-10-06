@@ -56,7 +56,6 @@ apps=(
   superhuman
   obsidian
   cursor
-  betterdisplay
 )
 
 brew install --cask --appdir="/Applications" ${apps[@]}
