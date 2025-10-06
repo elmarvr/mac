@@ -12,9 +12,10 @@ source $ZSH/oh-my-zsh.sh
 
 export EDITOR="nano"
 
+export PATH="$HOME/.bun/bin:$PATH"
+export PATH="$HOMEBREW_PREFIX/opt/mysql@8.4/bin:$PATH"
 export PATH="$HOME/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
-export PATH="$HOME/.bun/bin:$PATH"
 
 export NVM_DIR=~/.nvm
 [ -s "$HOMEBREW_PREFIX/opt/nvm/nvm.sh" ] && \. "$HOMEBREW_PREFIX/opt/nvm/nvm.sh"
