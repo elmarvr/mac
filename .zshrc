@@ -23,4 +23,4 @@ export NVM_DIR=~/.nvm
 eval "$(starship init zsh)"
 
 eval "$(zoxide init zsh)"
-alias cd="zoxide"
+alias cd="z"
