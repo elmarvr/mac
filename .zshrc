@@ -20,4 +20,7 @@ export PATH="/usr/local/bin:$PATH"
 export NVM_DIR=~/.nvm
 [ -s "$HOMEBREW_PREFIX/opt/nvm/nvm.sh" ] && \. "$HOMEBREW_PREFIX/opt/nvm/nvm.sh"
 
+alias cd="zoxide"
+
+eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
