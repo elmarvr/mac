@@ -31,6 +31,8 @@ packages=(
   redis
   go
   gh
+  fzf
+  zoxide
 )
 
 brew install ${packages[@]}
